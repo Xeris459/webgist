@@ -1,0 +1,219 @@
+CRITICAL - 2021-10-20 06:22:08 --> Cannot access protected property CodeIgniter\HTTP\IncomingRequest::$files
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->test()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-20 06:22:13 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::files()
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->test()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-20 06:22:50 --> Too few arguments to function CodeIgniter\HTTP\IncomingRequest::getFile(), 0 passed in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php on line 85 and exactly 1 expected
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(85): CodeIgniter\HTTP\IncomingRequest->getFile()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->test()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 06:43:18 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$getName
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Xampp2\\htdoc...', 87, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->test()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 07:41:10 --> Trying to access array offset on value of type null
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'E:\\Xampp2\\htdoc...', 143, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 07:41:24 --> Trying to access array offset on value of type null
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'E:\\Xampp2\\htdoc...', 143, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 07:41:50 --> Trying to access array offset on value of type null
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'E:\\Xampp2\\htdoc...', 143, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 07:42:10 --> Trying to access array offset on value of type null
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'E:\\Xampp2\\htdoc...', 143, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 07:49:14 --> Undefined property: App\Controllers\Api\Map::$custom
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(165): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Xampp2\\htdoc...', 165, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 08:10:54 --> Undefined variable: mark_id
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 160, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 08:11:06 --> Undefined variable: mark_id
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(160): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 160, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 08:14:33 --> syntax error, unexpected '}', expecting ';'
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Router\Router.php(160): CodeIgniter\Router\Router->autoRoute('api/map/saveLoc...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(702): CodeIgniter\Router\Router->handle('api/map/saveLoc...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(358): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+ERROR - 2021-10-20 08:15:13 --> Table 'webgis.marks' doesn't exist
+CRITICAL - 2021-10-20 08:15:13 --> Undefined variable: post
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 189, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+ERROR - 2021-10-20 08:15:31 --> Table 'webgis.marks' doesn't exist
+CRITICAL - 2021-10-20 08:15:31 --> Undefined variable: post
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 189, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+ERROR - 2021-10-20 08:15:45 --> Table 'webgis.marks' doesn't exist
+CRITICAL - 2021-10-20 08:15:45 --> Undefined variable: post
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 189, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+ERROR - 2021-10-20 08:16:36 --> Table 'webgis.marks' doesn't exist
+CRITICAL - 2021-10-20 08:16:36 --> Undefined variable: post
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 189, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+ERROR - 2021-10-20 08:16:49 --> Table 'webgis.marks' doesn't exist
+CRITICAL - 2021-10-20 08:16:49 --> Undefined variable: post
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(189): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 189, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+ERROR - 2021-10-20 08:17:03 --> Table 'webgis.marks' doesn't exist
+ERROR - 2021-10-20 08:18:00 --> Table 'webgis.marks' doesn't exist
+ERROR - 2021-10-20 08:18:15 --> Table 'webgis.marks' doesn't exist
+CRITICAL - 2021-10-20 08:18:15 --> Table 'webgis.marks' doesn't exist
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ma...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(178): CodeIgniter\Model->insert(Array)
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#13 {main}
+ERROR - 2021-10-20 08:18:40 --> Unknown column 'user_id' in 'field list'
+CRITICAL - 2021-10-20 08:18:40 --> Unknown column 'user_id' in 'field list'
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ma...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(178): CodeIgniter\Model->insert(Array)
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#13 {main}
+ERROR - 2021-10-20 08:19:21 --> Duplicate entry '0' for key 'NIK'
+CRITICAL - 2021-10-20 08:19:21 --> Duplicate entry '0' for key 'NIK'
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `ke...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1612): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(272): CodeIgniter\Database\BaseBuilder->insertBatch(Array, NULL, 100)
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(814): CodeIgniter\Model->doInsertBatch(Array, NULL, 100, false)
+#6 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(185): CodeIgniter\BaseModel->insertBatch(Array)
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}
+CRITICAL - 2021-10-20 08:20:10 --> Undefined variable: q
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(195): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 195, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->saveLocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 09:47:54 --> Undefined variable: Mark_model
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 87, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->getmarker()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 09:48:09 --> Undefined variable: Mark_model
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(87): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 87, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->getmarker()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-20 09:52:53 --> Class 'App\Models\Mark_model1' not found
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->getmarker()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}

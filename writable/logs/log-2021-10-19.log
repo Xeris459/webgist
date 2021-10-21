@@ -1,0 +1,271 @@
+CRITICAL - 2021-10-19 06:50:27 --> Call to undefined function App\Controllers\Api\user()
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Category->index()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Category))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-19 06:51:41 --> Call to undefined function App\Controllers\Api\user_id()
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Category->index()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Category))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+ERROR - 2021-10-19 06:52:23 --> Unknown column 'users_id' in 'where clause'
+CRITICAL - 2021-10-19 06:52:23 --> Unknown column 'users_id' in 'where clause'
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT COUNT(*)...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1512): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\Xampp2\htdocs\webgist\vendor\irsyadulibad\codeigniter4-datatables\src\TableProcessor.php(35): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\Xampp2\htdocs\webgist\vendor\irsyadulibad\codeigniter4-datatables\src\TableProcessor.php(40): Irsyadulibad\DataTables\TableProcessor->count()
+#6 E:\Xampp2\htdocs\webgist\vendor\irsyadulibad\codeigniter4-datatables\src\TableProcessor.php(27): Irsyadulibad\DataTables\TableProcessor->doQuery()
+#7 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Category.php(52): Irsyadulibad\DataTables\TableProcessor->make(true)
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Category->index()
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Category))
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#13 {main}
+CRITICAL - 2021-10-19 07:04:27 --> Class 'App\Models\Category_model' not found
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Category->index()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-19 07:05:53 --> Undefined variable: category
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Category.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 24, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Category->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-19 07:06:16 --> Undefined variable: roles
+#0 E:\Xampp2\htdocs\webgist\app\Views\_component\_addAndEditUser.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 71, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('_component/_add...', NULL, true)
+#4 E:\Xampp2\htdocs\webgist\app\Views\pages\category.php(6): CodeIgniter\View\View->include('_component/_add...')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/category', Array, true)
+#8 E:\Xampp2\htdocs\webgist\app\Controllers\Category.php(27): view('pages/category', Array)
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Category->index()
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Category))
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#14 {main}
+CRITICAL - 2021-10-19 07:10:54 --> required|alpha_numeric_space is not a valid rule.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|alpha_...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('title', 'name category', 'Fakir Miskin', Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Category.php(71): CodeIgniter\Controller->validate(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Category->create()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Category))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-19 07:11:03 --> required|alpha_numeric_space is not a valid rule.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|alpha_...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('title', 'name category', NULL, Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Category.php(71): CodeIgniter\Controller->validate(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Category->create()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Category))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-19 07:12:10 --> required|alpha_space is not a valid rule.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|alpha_...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('title', 'name category', NULL, Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Category.php(71): CodeIgniter\Controller->validate(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Category->create()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Category))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-19 07:12:59 --> required|alpha_space is not a valid rule.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Validation\Validation.php(285): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('required|alpha_...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Validation\Validation.php(151): CodeIgniter\Validation\Validation->processRules('title', 'name category', 'Fakir Miskin', Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Category.php(71): CodeIgniter\Controller->validate(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Category->create()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Category))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-19 08:37:58 --> Cannot declare class App\Controllers\Api\User, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-19 08:48:19 --> Too few arguments to function in_groups(), 0 passed in E:\Xampp2\htdocs\webgist\app\Controllers\Home.php on line 18 and exactly 1 expected
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Home.php(18): in_groups()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-19 08:59:48 --> Class 'Myth\Auth\Models\User_model' not found
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-19 09:00:30 --> Undefined variable: users
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(73): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 73, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-19 09:00:50 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php on line 295
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(295): CodeIgniter\Database\BaseBuilder->set('lat', Array, NULL)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('8', Array)
+#4 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(73): CodeIgniter\BaseModel->save(Array)
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2021-10-19 09:01:44 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::set() must be of the type string or null, array given, called in E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php on line 236
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(236): CodeIgniter\Database\BaseBuilder->set('lat', Array, NULL)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(73): CodeIgniter\BaseModel->save(Array)
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2021-10-19 09:02:54 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Xampp2\\htdoc...', 63, Array)
+#1 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(63): json_decode(Object(stdClass))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#7 {main}
+CRITICAL - 2021-10-19 09:03:15 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Xampp2\\htdoc...', 63, Array)
+#1 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(63): json_decode(Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#7 {main}
+CRITICAL - 2021-10-19 09:03:26 --> json_decode() expects parameter 1 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Xampp2\\htdoc...', 63, Array)
+#1 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(63): json_decode(Object(stdClass))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#7 {main}
+CRITICAL - 2021-10-19 09:03:49 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'E:\\Xampp2\\htdoc...', 63, Array)
+#1 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(63): json_decode(Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#7 {main}
+CRITICAL - 2021-10-19 09:04:02 --> Illegal string offset 'lat'
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'E:\\Xampp2\\htdoc...', 64, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-19 09:04:17 --> Illegal string offset 'lat'
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'E:\\Xampp2\\htdoc...', 65, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-19 09:04:37 --> Cannot use object of type stdClass as array
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-19 09:04:52 --> Cannot use object of type stdClass as array
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+ERROR - 2021-10-19 09:05:18 --> Duplicate entry '' for key 'email'
+CRITICAL - 2021-10-19 09:05:18 --> Duplicate entry '' for key 'email'
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(73): CodeIgniter\BaseModel->save(Array)
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#14 {main}
+CRITICAL - 2021-10-19 09:05:55 --> Trying to get property 'lat' of non-object
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(64): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Xampp2\\htdoc...', 64, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+ERROR - 2021-10-19 09:08:09 --> Duplicate entry '' for key 'email'
+CRITICAL - 2021-10-19 09:08:09 --> Duplicate entry '' for key 'email'
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Map.php(73): CodeIgniter\BaseModel->save(Array)
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Map->setlocation()
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Map))
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#14 {main}
+CRITICAL - 2021-10-19 09:18:23 --> Undefined variable: loc
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Map.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 41, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Map->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}

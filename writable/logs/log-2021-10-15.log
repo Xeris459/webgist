@@ -1,0 +1,111 @@
+CRITICAL - 2021-10-15 03:54:14 --> Undefined variable: key
+#0 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Article.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 63, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Article->save()
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-15 04:07:47 --> Undefined property: stdClass::$id
+#0 E:\Xampp2\htdocs\health\Demo\app\Views\frontend\pages\article.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Xampp2\\htdoc...', 36, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 E:\Xampp2\htdocs\health\Demo\app\Controllers\Article.php(81): view('frontend/pages/...', Array)
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Article->read('12', '10', '2021', '1')
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2021-10-15 04:08:11 --> Undefined property: stdClass::$id
+#0 E:\Xampp2\htdocs\health\Demo\app\Views\frontend\pages\article.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Xampp2\\htdoc...', 36, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 E:\Xampp2\htdocs\health\Demo\app\Controllers\Article.php(81): view('frontend/pages/...', Array)
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Article->read('15', '10', '2021', '7', 'keqing')
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#10 {main}
+ERROR - 2021-10-15 04:09:51 --> Unknown column 'users.fullname' in 'field list'
+CRITICAL - 2021-10-15 04:09:51 --> Unknown column 'users.fullname' in 'field list'
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `doctor`...')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `doctor`...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `doctor`...')
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `doctor`...', Array, false)
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\Xampp2\htdocs\health\Demo\app\Controllers\Article.php(34): CodeIgniter\BaseModel->findAll()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Article->read('15', '10', '2021', '7', 'keqing')
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}
+ERROR - 2021-10-15 04:10:09 --> Unknown column 'users.fullname' in 'field list'
+CRITICAL - 2021-10-15 04:10:09 --> Unknown column 'users.fullname' in 'field list'
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `doctor`...')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `doctor`...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `doctor`...')
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `doctor`...', Array, false)
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\Xampp2\htdocs\health\Demo\app\Controllers\Article.php(34): CodeIgniter\BaseModel->findAll()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Article->read('15', '10', '2021', '7', 'keqing')
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}
+CRITICAL - 2021-10-15 04:13:04 --> Too few arguments to function App\Controllers\Profile::index(), 0 passed in E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php on line 802 and exactly 1 expected
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Profile->index()
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+ERROR - 2021-10-15 04:15:32 --> Unknown column 'author.staff-id' in 'on clause'
+CRITICAL - 2021-10-15 04:15:32 --> Unknown column 'author.staff-id' in 'on clause'
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `article...')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `article...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `article...')
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `article...', Array, false)
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 E:\Xampp2\htdocs\health\Demo\app\Controllers\Article.php(44): CodeIgniter\BaseModel->find()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Article->read('15', '10', '2021', '7', 'keqing')
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Article))
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}
+CRITICAL - 2021-10-15 04:21:40 --> Undefined variable: author
+#0 E:\Xampp2\htdocs\health\Demo\app\Views\frontend\pages\profile.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 4, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#4 E:\Xampp2\htdocs\health\Demo\app\Controllers\Profile.php(66): view('frontend/pages/...', Array)
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Profile->read('2', 'keqing')
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#10 {main}
+ERROR - 2021-10-15 04:24:46 --> Unknown column 'doctor.name' in 'field list'
+CRITICAL - 2021-10-15 04:24:46 --> Unknown column 'doctor.name' in 'field list'
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `article...')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `article...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `article...')
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `article...', Array, false)
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 E:\Xampp2\htdocs\health\Demo\app\Controllers\Profile.php(38): CodeIgniter\BaseModel->find()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Profile->read('2', 'keqing')
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}

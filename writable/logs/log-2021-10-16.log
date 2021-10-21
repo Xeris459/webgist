@@ -1,0 +1,298 @@
+ERROR - 2021-10-16 08:42:29 --> MySQL server has gone away
+CRITICAL - 2021-10-16 08:42:29 --> MySQL server has gone away
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `website...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `website...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `website...')
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `website...', Array, false)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 E:\Xampp2\htdocs\webgist\app\Controllers\Home.php(12): CodeIgniter\BaseModel->first()
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}
+ERROR - 2021-10-16 08:42:34 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-10-16 08:42:34 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `website...', Array, false)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 E:\Xampp2\htdocs\webgist\app\Controllers\Home.php(12): CodeIgniter\BaseModel->first()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2021-10-16 08:50:34 --> Class 'App\Controllers\BaseController' not found
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(264): include_once()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#10 {main}
+CRITICAL - 2021-10-16 08:51:12 --> Invalid file: pages/dashboard.php
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/dashboard...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#2 E:\Xampp2\htdocs\webgist\app\Controllers\Home.php(24): view('pages/dashboard', Array)
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#8 {main}
+CRITICAL - 2021-10-16 08:52:00 --> Invalid file: backend/layout/head.php
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('backend/layout/...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('backend/layout/...', NULL, true)
+#2 E:\Xampp2\htdocs\webgist\app\Views\layout\content.php(1): CodeIgniter\View\View->include('backend/layout/...')
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('layout/content', Array, true)
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#7 E:\Xampp2\htdocs\webgist\app\Controllers\Home.php(24): view('pages/dashboard', Array)
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#13 {main}
+CRITICAL - 2021-10-16 08:52:38 --> Trying to get property 'fullname' of non-object
+#0 E:\Xampp2\htdocs\webgist\app\Views\layout\navbar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Xampp2\\htdoc...', 21, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('layout/navbar', NULL, true)
+#4 E:\Xampp2\htdocs\webgist\app\Views\layout\content.php(3): CodeIgniter\View\View->include('layout/navbar')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('layout/content', Array, true)
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#9 E:\Xampp2\htdocs\webgist\app\Controllers\Home.php(24): view('pages/dashboard', Array)
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#15 {main}
+CRITICAL - 2021-10-16 08:53:25 --> Trying to get property 'fullname' of non-object
+#0 E:\Xampp2\htdocs\webgist\app\Views\layout\navbar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Xampp2\\htdoc...', 21, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('layout/navbar', NULL, true)
+#4 E:\Xampp2\htdocs\webgist\app\Views\layout\content.php(3): CodeIgniter\View\View->include('layout/navbar')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('layout/content', Array, true)
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/dashboard', Array, true)
+#9 E:\Xampp2\htdocs\webgist\app\Controllers\Home.php(24): view('pages/dashboard', Array)
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#15 {main}
+CRITICAL - 2021-10-16 08:53:32 --> Class 'App\Models\Group_role_model' not found
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-16 08:54:21 --> Trying to get property 'fullname' of non-object
+#0 E:\Xampp2\htdocs\webgist\app\Views\layout\navbar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Xampp2\\htdoc...', 21, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('layout/navbar', NULL, true)
+#4 E:\Xampp2\htdocs\webgist\app\Views\layout\content.php(3): CodeIgniter\View\View->include('layout/navbar')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('layout/content', Array, true)
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin', Array, true)
+#9 E:\Xampp2\htdocs\webgist\app\Controllers\Admin.php(41): view('pages/admin', Array)
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#15 {main}
+CRITICAL - 2021-10-16 08:54:26 --> Invalid file: \App\Views\backend\pages\login.php
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('\\App\\Views\\back...')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('\\App\\Views\\back...', Array, true)
+#2 E:\Xampp2\htdocs\webgist\vendor\myth\auth\src\Controllers\AuthController.php(429): view('\\App\\Views\\back...', Array)
+#3 E:\Xampp2\htdocs\webgist\vendor\myth\auth\src\Controllers\AuthController.php(57): Myth\Auth\Controllers\AuthController->_render('\\App\\Views\\back...', Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Myth\Auth\Controllers\AuthController->login()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-16 08:55:13 --> Trying to get property 'fullname' of non-object
+#0 E:\Xampp2\htdocs\webgist\app\Views\layout\navbar.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Xampp2\\htdoc...', 21, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('layout/navbar', NULL, true)
+#4 E:\Xampp2\htdocs\webgist\app\Views\layout\content.php(3): CodeIgniter\View\View->include('layout/navbar')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('layout/content', Array, true)
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/admin', Array, true)
+#9 E:\Xampp2\htdocs\webgist\app\Controllers\Admin.php(41): view('pages/admin', Array)
+#10 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#12 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#15 {main}
+CRITICAL - 2021-10-16 10:03:11 --> Cannot declare class App\Controllers\Admin\Api\Admin, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-16 21:52:23 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', 'Takmir')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:40 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', 'Takmir')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:51 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:53 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:53 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:54 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:54 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:54 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:54 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:54 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:55 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:55 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:55 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:55 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 21:52:56 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php on line 21
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\Admin.php(21): Irsyadulibad\DataTables\DataTableMethods->where('auth_groups.nam...', Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+ERROR - 2021-10-16 22:08:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(255) NULL,
+	`jenjang_pendidikan` varhcar(255) NULL,
+	`Agama` enum('islam','k...' at line 11
+CRITICAL - 2021-10-16 22:33:33 --> Class 'App\Models\Setting_model' not found
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(780): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-16 22:36:09 --> Undefined variable: request
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Map.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 20, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Map->index()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Map))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-16 23:35:11 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

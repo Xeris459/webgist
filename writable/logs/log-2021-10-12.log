@@ -1,0 +1,251 @@
+CRITICAL - 2021-10-12 01:46:36 --> Cannot declare class App\Controllers\Admin\Subategory, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 06:58:29 --> Call to a member function getName() on null
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Doctor->edit()
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Doctor))
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-12 07:06:51 --> Undefined property: stdClass::$ads_id
+#0 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Api\Doctor.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Xampp2\\htdoc...', 24, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\irsyadulibad\codeigniter4-datatables\src\DataProcessor.php(46): App\Controllers\Admin\Api\Doctor->App\Controllers\Admin\Api\{closure}(Object(stdClass))
+#2 E:\Xampp2\htdocs\health\Demo\vendor\irsyadulibad\codeigniter4-datatables\src\DataProcessor.php(21): Irsyadulibad\DataTables\DataProcessor->addColumns()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\irsyadulibad\codeigniter4-datatables\src\TableProcessor.php(114): Irsyadulibad\DataTables\DataProcessor->process()
+#4 E:\Xampp2\htdocs\health\Demo\vendor\irsyadulibad\codeigniter4-datatables\src\TableProcessor.php(28): Irsyadulibad\DataTables\TableProcessor->results()
+#5 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Api\Doctor.php(57): Irsyadulibad\DataTables\TableProcessor->make(true)
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Api\Doctor->index()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Doctor))
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2021-10-12 07:07:09 --> Undefined property: stdClass::$ads_id
+#0 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Api\Doctor.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Xampp2\\htdoc...', 24, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\irsyadulibad\codeigniter4-datatables\src\DataProcessor.php(46): App\Controllers\Admin\Api\Doctor->App\Controllers\Admin\Api\{closure}(Object(stdClass))
+#2 E:\Xampp2\htdocs\health\Demo\vendor\irsyadulibad\codeigniter4-datatables\src\DataProcessor.php(21): Irsyadulibad\DataTables\DataProcessor->addColumns()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\irsyadulibad\codeigniter4-datatables\src\TableProcessor.php(114): Irsyadulibad\DataTables\DataProcessor->process()
+#4 E:\Xampp2\htdocs\health\Demo\vendor\irsyadulibad\codeigniter4-datatables\src\TableProcessor.php(28): Irsyadulibad\DataTables\TableProcessor->results()
+#5 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Api\Doctor.php(57): Irsyadulibad\DataTables\TableProcessor->make(true)
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Api\Doctor->index()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Doctor))
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#11 {main}
+CRITICAL - 2021-10-12 07:36:11 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:36:23 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:36:53 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:36:55 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:37:05 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:37:59 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:38:43 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:38:44 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:39:10 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:40:06 --> Cannot declare class App\Models\Main_Category_model, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 07:40:20 --> Undefined variable: all_data
+#0 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Article.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 32, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Article->index()
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+ERROR - 2021-10-12 18:41:05 --> Table 'author' already exists
+ERROR - 2021-10-12 18:43:55 --> Table 'contact_us' already exists
+ERROR - 2021-10-12 18:46:06 --> Table 'contact_us' already exists
+CRITICAL - 2021-10-12 18:46:17 --> Cannot declare class App\Database\Migrations\Author, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-10-12 18:46:23 --> Table 'contact_us' already exists
+ERROR - 2021-10-12 18:47:10 --> Table 'contact_us' already exists
+ERROR - 2021-10-12 18:48:20 --> Table 'category' already exists
+ERROR - 2021-10-12 18:49:12 --> Table 'doctor' already exists
+ERROR - 2021-10-12 18:49:23 --> Table 'article' already exists
+CRITICAL - 2021-10-12 18:50:07 --> Cannot declare class App\Database\Migrations\Author, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-12 19:03:42 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Api\Doctor.php on line 14
+#0 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Api\Doctor.php(14): Irsyadulibad\DataTables\DataTableMethods->where('level', 'doctor')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Api\Doctor->index()
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Doctor))
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-12 19:04:01 --> Argument 1 passed to Irsyadulibad\DataTables\DataTableMethods::where() must be of the type array, string given, called in E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Api\Doctor.php on line 14
+#0 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Api\Doctor.php(14): Irsyadulibad\DataTables\DataTableMethods->where('level', 'doctor')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Api\Doctor->index()
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Doctor))
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-12 19:28:30 --> Class 'App\Models\Group_role_model' not found
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Admin->index()
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+ERROR - 2021-10-12 19:30:09 --> Duplicate entry 'vikri anto' for key 'username'
+CRITICAL - 2021-10-12 19:30:09 --> Duplicate entry 'vikri anto' for key 'username'
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('INSERT INTO `us...')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(Myth\Auth\Entities\User), false)
+#8 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Admin.php(88): CodeIgniter\BaseModel->save(Object(Myth\Auth\Entities\User))
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Admin->save()
+#10 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#14 {main}
+CRITICAL - 2021-10-12 19:33:13 --> Too few arguments to function in_groups(), 0 passed in E:\Xampp2\htdocs\health\Demo\app\Views\backend\layout\sidebar.php on line 39 and exactly 1 expected
+#0 E:\Xampp2\htdocs\health\Demo\app\Views\backend\layout\sidebar.php(39): in_groups()
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('backend/layout/...', NULL, true)
+#4 E:\Xampp2\htdocs\health\Demo\app\Views\backend\layout\content.php(2): CodeIgniter\View\View->include('backend/layout/...')
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('backend/layout/...', Array, true)
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('backend/pages/a...', Array, true)
+#9 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Admin.php(41): view('backend/pages/a...', Array)
+#10 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Admin->index()
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Admin))
+#12 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#15 {main}
+ERROR - 2021-10-12 19:39:25 --> Unknown column 'users.id' in 'on clause'
+CRITICAL - 2021-10-12 19:39:25 --> Unknown column 'users.id' in 'on clause'
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Article.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Article->add()
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}
+ERROR - 2021-10-12 19:39:41 --> Unknown column 'users.id' in 'on clause'
+CRITICAL - 2021-10-12 19:39:41 --> Unknown column 'users.id' in 'on clause'
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Article.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Article->add()
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}
+ERROR - 2021-10-12 19:41:41 --> Unknown column 'users.id' in 'on clause'
+CRITICAL - 2021-10-12 19:41:41 --> Unknown column 'users.id' in 'on clause'
+#0 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Article.php(46): CodeIgniter\BaseModel->findAll()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Article->add()
+#8 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}
+CRITICAL - 2021-10-12 19:44:29 --> Undefined property: stdClass::$name
+#0 E:\Xampp2\htdocs\health\Demo\app\Views\backend\pages\addArticle.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Xampp2\\htdoc...', 30, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('backend/pages/a...', Array, true)
+#4 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Article.php(56): view('backend/pages/a...', Array)
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Article->add()
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#10 {main}
+ERROR - 2021-10-12 20:10:53 --> Table 'author' already exists
+ERROR - 2021-10-12 20:11:05 --> Table 'author' already exists
+CRITICAL - 2021-10-12 21:58:08 --> Undefined variable: author
+#0 E:\Xampp2\htdocs\health\Demo\app\Controllers\Admin\Article.php(106): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 106, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin\Article->save()
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Article))
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-12 22:36:32 --> Trying to get property 'desk' of non-object
+#0 E:\Xampp2\htdocs\health\Demo\app\Libraries\CustemLibrary.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Xampp2\\htdoc...', 104, Array)
+#1 E:\Xampp2\htdocs\health\Demo\app\Controllers\Home.php(11): App\Libraries\CustemLibrary->meta()
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#7 {main}
+CRITICAL - 2021-10-12 22:36:38 --> Undefined variable: meta
+#0 E:\Xampp2\htdocs\health\Demo\app\Views\frontend\_component\_meta_tag.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 7, Array)
+#1 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('frontend/_compo...', NULL, true)
+#4 E:\Xampp2\htdocs\health\Demo\app\Views\frontend\_layout\_head.php(5): CodeIgniter\View\View->include('frontend/_compo...')
+#5 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(432): CodeIgniter\View\View->render('frontend/_layou...', NULL, true)
+#8 E:\Xampp2\htdocs\health\Demo\app\Views\frontend\_layout\_content.php(1): CodeIgniter\View\View->include('frontend/_layou...')
+#9 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(214): include('E:\\Xampp2\\htdoc...')
+#10 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('frontend/_layou...', Array, true)
+#12 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('frontend/pages/...', Array, true)
+#13 E:\Xampp2\htdocs\health\Demo\app\Controllers\Home.php(14): view('frontend/pages/...', Array)
+#14 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#15 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#16 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#17 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#18 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#19 {main}
+CRITICAL - 2021-10-12 22:37:26 --> Trying to get property 'desk' of non-object
+#0 E:\Xampp2\htdocs\health\Demo\app\Libraries\CustemLibrary.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\Xampp2\\htdoc...', 104, Array)
+#1 E:\Xampp2\htdocs\health\Demo\app\Controllers\Home.php(14): App\Libraries\CustemLibrary->meta()
+#2 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#3 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\Xampp2\htdocs\health\Demo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 E:\Xampp2\htdocs\health\Demo\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#7 {main}

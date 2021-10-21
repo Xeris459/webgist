@@ -1,0 +1,220 @@
+CRITICAL - 2021-10-17 02:20:19 --> Invalid file: pages/user.php
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/user.php')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('pages/user', Array, true)
+#2 E:\Xampp2\htdocs\webgist\app\Controllers\User.php(24): view('pages/user', Array)
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#8 {main}
+CRITICAL - 2021-10-17 02:22:28 --> Class 'App\Controllers\Group_role_model' not found
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\User->index()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-17 02:27:03 --> Call to undefined method Irsyadulibad\DataTables\TableProcessor::orWhere()
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-17 02:27:16 --> Call to undefined method Irsyadulibad\DataTables\TableProcessor::orwhere()
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-17 02:27:29 --> Call to undefined method Irsyadulibad\DataTables\TableProcessor::orWhere()
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-17 02:28:10 --> Call to undefined method Irsyadulibad\DataTables\TableProcessor::orWhere()
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\Admin->index()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Admin))
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#5 {main}
+CRITICAL - 2021-10-17 02:54:17 --> Undefined property: App\Controllers\Api\User::$validation
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(86): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\Xampp2\\htdoc...', 86, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->create()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-17 03:29:23 --> Argument 1 passed to CodeIgniter\RESTful\ResourceController::failValidationError() must be of the type string, array given, called in E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php on line 90
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(90): CodeIgniter\RESTful\ResourceController->failValidationError(Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->create()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-17 03:33:12 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-17 03:41:08 --> Undefined variable: scrf_hash
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 111, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->create()
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
+CRITICAL - 2021-10-17 03:52:02 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-17 06:55:28 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-10-17 06:57:52 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-10-17 06:57:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 E:\Xampp2\htdocs\webgist\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(156): CodeIgniter\BaseModel->first()
+#5 E:\Xampp2\htdocs\webgist\vendor\myth\auth\src\Authentication\LocalAuthenticator.php(20): Myth\Auth\Authentication\LocalAuthenticator->validate(Array, true)
+#6 E:\Xampp2\htdocs\webgist\vendor\myth\auth\src\Controllers\AuthController.php(88): Myth\Auth\Authentication\LocalAuthenticator->attempt(Array, false)
+#7 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): Myth\Auth\Controllers\AuthController->attemptLogin()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(Myth\Auth\Controllers\AuthController))
+#9 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#12 {main}
+CRITICAL - 2021-10-17 07:36:01 --> Argument 1 passed to Myth\Auth\Entities\User::setPassword() must be of the type string, null given, called in E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Entity\Entity.php on line 452
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Entity\Entity.php(452): Myth\Auth\Entities\User->setPassword(NULL)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Entity\Entity.php(139): CodeIgniter\Entity\Entity->__set('password', NULL)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Entity\Entity.php(120): CodeIgniter\Entity\Entity->fill(Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(185): CodeIgniter\Entity\Entity->__construct(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 07:38:08 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-17 07:38:27 --> Argument 1 passed to Myth\Auth\Entities\User::setPassword() must be of the type string, null given, called in E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Entity\Entity.php on line 452
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Entity\Entity.php(452): Myth\Auth\Entities\User->setPassword(NULL)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Entity\Entity.php(139): CodeIgniter\Entity\Entity->__set('password', NULL)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Entity\Entity.php(120): CodeIgniter\Entity\Entity->fill(Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(185): CodeIgniter\Entity\Entity->__construct(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 07:45:37 --> There is no data to update.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('24', Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(189): CodeIgniter\BaseModel->save(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword('24')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 07:45:54 --> There is no data to update.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('24', Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(189): CodeIgniter\BaseModel->save(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword('24')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 07:47:00 --> There is no data to update.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('24', Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(187): CodeIgniter\BaseModel->save(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword('24')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 07:47:38 --> There is no data to update.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('24', Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(187): CodeIgniter\BaseModel->save(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword('24')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 07:48:11 --> There is no data to update.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('24', Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(187): CodeIgniter\BaseModel->save(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword('24')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 07:48:24 --> There is no data to update.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('24', Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(187): CodeIgniter\BaseModel->save(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword('24')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 07:52:16 --> There is no data to update.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('24', Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(186): CodeIgniter\BaseModel->save(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword('24')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 07:52:36 --> There is no data to update.
+#0 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(Array, Array)
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->update('24', Array)
+#3 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(186): CodeIgniter\BaseModel->save(Array)
+#4 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->updatePassword('24')
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#6 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#9 {main}
+CRITICAL - 2021-10-17 08:19:06 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-17 08:59:36 --> Undefined variable: role
+#0 E:\Xampp2\htdocs\webgist\app\Controllers\Api\User.php(181): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\Xampp2\\htdoc...', 181, Array)
+#1 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Api\User->update('24')
+#2 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\User))
+#3 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\Xampp2\htdocs\webgist\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 E:\Xampp2\htdocs\webgist\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\Xampp2\\htdoc...')
+#6 {main}
