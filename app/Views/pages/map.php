@@ -650,5 +650,44 @@ $.ajax({
         });
     }
 });
+    
+    let editPositionMarker = (id) => {
+        var new_markers = []
+        var currentMarker = null;
+
+        Swal.fire({
+            title: `apakah anda yakin ingin merubah posisi marker ini?`,
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Yakin',
+            cancelButtonText: "Batal"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                markers.forEach(function(marker) {
+                    if (marker._id == id) {
+                        currentMarker = marker
+                    }
+                })
+
+                currentMarker.closePopup();
+                console.log(currentMarker);
+                currentMarker.setLatLng(map.getCenter(), {
+                    id: currentMarker._id,
+                    draggable: true
+                }).update();
+
+                map.on('move', function(event) {
+                    var position = map.getCenter();
+                    console.log(position)
+                    currentMarker.setLatLng(position, {
+                        id: currentMarker._id,
+                        draggable: true
+                    }).update();
+                });
+            }
+        });
+    }
 </script>
 <?= $this->endSection() ?>
